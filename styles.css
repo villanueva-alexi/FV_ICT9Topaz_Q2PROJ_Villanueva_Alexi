@@ -1,0 +1,126 @@
+.parkinsans-<uniquifier> {
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <>;
+  font-style: normal;
+}
+.plus-jakarta-sans-<uniquifier> {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <>;
+  font-style: normal;
+}
+body{
+	background-image: url(https://media.istockphoto.com/id/951797778/vector/light-blue-gingham-seamless-pattern.jpg?s=612x612&w=0&k=20&c=zYzqDn06EQ74BRWOe8kdGi2j_daZnHyIB4OBSGzCBis=);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header, .header h5{
+	text-align: center;
+	font-family: "Parkinsans", sans-serif;
+	font-weight: 500;
+	color: #225963;
+}
+.header h6{
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+.header h1{
+	font-size: 50px;
+	color: white;
+	text-shadow: 0px 1px 4px rgba(34, 89,99, 1.0);
+}
+.nav-item{
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container1 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap; 
+	margin-left: 6px;
+}
+.container1 div {
+	flex: 1; 
+	max-width: 500px; 
+}
+.container1 img {
+	width: 470px;
+	height: 430px;
+	object-fit: cover;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+	transition: transform 0.1s ease-in-out;
+}
+.container1 img:hover{
+	transform: scale(1.1);
+}
+.logo{
+	width: 60px;
+	height: 50px;
+}
+.dcap, .hcap{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	transition: opacity 0.5s ease;
+}
+.dcap{
+	opacity: 1;
+}
+.hcap{
+	opacity: 0;
+}
+.img-container:hover .dcap{
+	opacity: 0;
+}
+.img-container:hover .hcap{
+	opacity: 1;
+}
+.img-container{
+	position: relative;
+}
+.img-container img{
+	filter: brightness(0.6);
+}
+.ref p{
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

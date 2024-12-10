@@ -1,0 +1,85 @@
+.parkinsans-<uniquifier>{
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
+}
+.plus-jakarta-sans-<uniquifier>{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
+}
+body{
+	background-image: url(https://media.istockphoto.com/id/951797778/vector/light-blue-gingham-seamless-pattern.jpg?s=612x612&w=0&k=20&c=zYzqDn06EQ74BRWOe8kdGi2j_daZnHyIB4OBSGzCBis=);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nav-item{
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+.header h1{
+	text-align: center;
+	font-family: "Parkinsans", sans-serif;
+	font-weight: 600;
+	font-size: 50px;
+	color: white;
+	text-shadow: 0px 1px 4px rgba(34, 89,99, 1.0)
+}
+.logo{
+	width: 60px;
+	height: 50px;
+}
+.recipe-card {
+	background-color: #ffffff; 
+	border: 1px solid #ddd; 
+	border-radius: 8px; 
+	padding: 20px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+	max-width: 1200px; 
+	margin: 20px auto; 
+}
+.recipe-header img {
+	width: 100%; 
+	border-radius: 8px; 
+	object-fit: cover; 
+	height: 100%; 
+}
+.ingredients-table {
+	width: 100%;
+}
+.instructions {
+	margin-top: 20px;
+	font-size: 1rem;
+	line-height: 1.6;
+}
+.table th{
+	font-family: "Parkinsans", sans-serif;
+	font-weight: 700;
+	color: #2d464a;
+}
+.table td{
+	font-family: "Plus Jakarta Sans", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+.instructions h4{
+	font-family: "Parkinsans", sans-serif;
+	font-weight: 700;
+	color: #2d464a;
+}
+.instructions li{
+	font-family: "Plus Jakarta Sans", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
